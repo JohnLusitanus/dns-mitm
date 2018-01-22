@@ -37,7 +37,8 @@ or
 
     $ ./dns-mitm.py -f hosts.dat
 
-where `hosts.dat` uses the same syntax as `/etc/hosts`.
+where `hosts.dat` uses the syntax: domain ip (see example_hosts.dat)
+
 
 By default, the script tries to determine the DNS server that the system is
 using. You may want to specify a different DNS server with the `-d` option.
